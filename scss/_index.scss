@@ -1,0 +1,33 @@
+//styles header,main and footer tag
+header,main,footer{
+  margin: .3em;
+  text-align: center;
+  //styles form tags
+  form{
+    max-width: 300px;
+    margin: 0 auto;
+    //styles input tags
+    input{
+      border: none;
+      border-radius: .3em;
+      padding: .6em;
+      margin: .6em;
+      outline: none;
+      box-shadow: 3px 3px 3px 3px #696969;
+      transition: box-shadow,background-color 900ms, 300ms;
+    }
+    //styles input tags when mouse is over
+    input:hover{
+      box-shadow: 0 0 0 3px #696969;
+    }
+    //styles only input tags with attribute type that has submit value
+    input[type="submit"]{
+      cursor: pointer;
+      min-width: 246px;
+    }
+    //styles only input tags with attribute type that has submit value when mosue is over
+    input[type="submit"]:hover{
+      background-color: lightblue;
+    }
+  }
+}
