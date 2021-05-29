@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue; }
+
+header, main, footer {
+  margin: .3em;
+  text-align: center; }
+  header form, main form, footer form {
+    max-width: 300px;
+    margin: 0 auto; }
+    header form input, main form input, footer form input {
+      border: none;
+      border-radius: .3em;
+      padding: .6em;
+      margin: .6em;
+      outline: none;
+      box-shadow: 3px 3px 3px 3px #696969;
+      transition: box-shadow,background-color 900ms, 300ms; }
+    header form input:hover, main form input:hover, footer form input:hover {
+      box-shadow: 0 0 0 3px #696969; }
+    header form input[type="submit"], main form input[type="submit"], footer form input[type="submit"] {
+      cursor: pointer;
+      min-width: 246px; }
+    header form input[type="submit"]:hover, main form input[type="submit"]:hover, footer form input[type="submit"]:hover {
+      background-color: lightblue; }
+
+/*# sourceMappingURL=style.css.map */
