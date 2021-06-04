@@ -1,2 +1,2 @@
-# javaScriptForm
-This project
+# javaScriptForms
+JavaScript forms create by a function and javascript object
