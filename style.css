@@ -1,5 +1,7 @@
 body {
-  background-color: yellow; }
+  background-color: lightblue;
+  color: lightblue;
+}
 
 header, main, footer {
   margin: .3em;
