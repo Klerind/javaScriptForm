@@ -1,2 +1,2 @@
 # javaScriptForms
-JavaScript forms create by a function and  by javascript objects
+JavaScript forms created by a function and  by javascript objects
